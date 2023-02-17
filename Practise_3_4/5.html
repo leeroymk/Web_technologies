@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Общая информация</legend>
+        <div>
+            <label for="general_choice_1">Фамилия</label>
+            <input type="text" name="general" id="general_choice_1" placeholder="Иванов">
+        </div>
+        <div>
+            <label for="general_choice_2">Имя</label>
+            <input type="text" name="general" id="general_choice_2" placeholder="Иван">
+        </div>
+        <div>
+            <label for="general_choice_3">Отчество</label>
+            <input type="text" name="general" id="general_choice_3" placeholder="Иванович">
+        </div>
+        <div>
+            <label for="general_choice_4">email</label>
+            <input type="email" name="general" id="general_choice_4" placeholder="mail@mail.ru">
+        </div>
+    </fieldset>
+        <fieldset>
+            <legend>Пол</legend>
+            <div>
+                <label for="sex">М</label>
+                <input type="radio" name="sex" id="sex_choice_1">
+                <label for="sex">Ж</label>
+                <input type="radio" name="sex" id="sex_choice_2">
+            </div>
+        </fieldset>
+    <fieldset>
+        <legend>Хобби</legend>
+        <div>
+            <input type="checkbox" name="hobby" id="hobby_id_1" value="painting">
+            <label for="hobby_id_1">Рисование</label>
+            <input type="checkbox" name="hobby" id="hobby_id_2" value="reading">
+            <label for="hobby_id_2">Чтение</label>
+            <input type="checkbox" name="hobby" id="hobby_id_3" value="knitting">
+            <label for="hobby_id_3">Вязание</label>
+            <input type="checkbox" name="hobby" id="hobby_id_4" value="cooking">
+            <label for="hobby_id_4">Кулинария</label>
+        </div>
+    </fieldset>
+    </form>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+</body>
+</html>
